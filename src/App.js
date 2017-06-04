@@ -14,13 +14,7 @@ class App extends Component {
       databaseURL: 'https://projeto-para-testes-b01e1.firebaseio.com',
       projectId: 'projeto-para-testes-b01e1',
       storageBucket: 'projeto-para-testes-b01e1.appspot.com',
-      messagingSenderId: '821026999552'
-      // apiKey: 'AIzaSyBR4FTGiOcTZ5OBNi6thE0KhCDR3PaOtQM',
-      // authDomain: 'manager-2328b.firebaseapp.com',
-      // databaseURL: 'https://manager-2328b.firebaseio.com',
-      // storageBucket: 'manager-2328b.appspot.com',
-      // projectId: 'projeto-para-testes-b01e1',
-      // messagingSenderId: '193075244299'
+      messagingSenderId: '821026999552',
     };
 
     firebase.initializeApp(config);
