@@ -14,7 +14,7 @@ const styles = {
     paddingTop: 7,
     height: 50,
     lineHeight: 50,
-  }
+  },
 };
 
 const Input = ({ value, onChangeText, placeholder, secureTextEntry, keyboardType, style }) => {
