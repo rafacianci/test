@@ -7,7 +7,7 @@ import {
   EMPLOYEE_SAVE_SUCCESS,
 } from '../actions/types';
 
-const firstAction = AppNavigator.router.getActionForPathAndParams('EmployeeCreate');
+const firstAction = AppNavigator.router.getActionForPathAndParams('Login');
 const initialNavState = AppNavigator.router.getStateForAction(firstAction);
 
 export default (state = initialNavState, action) => {
